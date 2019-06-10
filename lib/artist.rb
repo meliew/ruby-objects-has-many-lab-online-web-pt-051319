@@ -9,6 +9,10 @@ end
 def add_song(song)
 end
 
+def self.name
+  @name
+end
+
 def songs
 end
 
