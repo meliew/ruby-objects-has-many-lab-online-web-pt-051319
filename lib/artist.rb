@@ -9,5 +9,8 @@ end
 def add_song(song)
 end
 
+def songs
+end
+
 
 end
