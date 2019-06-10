@@ -4,25 +4,25 @@ attr_accessor :name
 
   def initialize(name)
     @name = name
-    @songs = []
+    @posts = []
   end
 
-  def add_song(song)
-    @songs << song
+  def add_post(post)
+    @posts << post
   end
 
   def self.name
     @name
   end
 
-  def songs
-  @songs
+  def posts
+  @posts
   end
 
-  def add_song(song)
-    @@song_count += 1
-    @songs << song
-    song.artist = self
+  def add_post(post)
+    @@post_count += 1
+    @posts<< post
+    post.author = self
   end
 
   def add_song_by_name(name)
