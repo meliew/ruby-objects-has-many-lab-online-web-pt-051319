@@ -8,6 +8,7 @@ def initialize(name)
 end
 
 def add_song(song)
+  @songs << song
 end
 
 def self.name
