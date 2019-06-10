@@ -6,7 +6,7 @@ attr_accessor :title
 
 def iniitalize(title)
   @title = title
-  @@all << self 
+  @@all << self
 end
 
 def title
