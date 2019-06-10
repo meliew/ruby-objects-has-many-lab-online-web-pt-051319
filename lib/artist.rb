@@ -19,8 +19,10 @@ def songs
 
 end
 
-def self.songs()
-  
+def add_song(song)
+  @songs << song
+end
+
 end
 
 end
