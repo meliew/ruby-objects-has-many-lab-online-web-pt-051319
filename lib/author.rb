@@ -28,10 +28,6 @@ attr_accessor :name, :posts
     @@post_count += 1
   end
 
-
-
-  end
-
   def self.post_count
     @@post_count
   end
