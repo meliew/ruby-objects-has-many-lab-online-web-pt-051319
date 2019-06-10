@@ -19,5 +19,5 @@ def songs
 
 end
 
-
+a/songs << (Song.new)
 end
