@@ -22,16 +22,13 @@ attr_accessor :name, :posts
   @posts
   end
 
-  def add_post(post)
-    @@post_count += 1
-    @posts<< post
+  def add_post_by_title(title)
+    post = Post.new(title)
     post.author = self
+    @@post_count += 1
   end
 
-  def add_post_by_name(name)
-    s = Post.new(name)
-    self.add_post(s)
-    s
+
 
   end
 
