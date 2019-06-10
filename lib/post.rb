@@ -10,7 +10,7 @@ def iniitalize(title)
 end
 
 def title
-  @title= title
+  @title = title
 end
 
 def self.all
