@@ -19,5 +19,8 @@ def songs
 
 end
 
-a/songs << (Song.new)
+def self.songs()
+  
+end
+
 end
