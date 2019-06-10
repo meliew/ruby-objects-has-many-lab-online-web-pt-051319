@@ -11,4 +11,8 @@ def add_post(post)
 
 end
 
+def name
+  @name=name
+end 
+
 end
