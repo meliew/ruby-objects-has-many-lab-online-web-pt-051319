@@ -12,6 +12,6 @@ def author_name
     return nil
   else
     @author.name
+    end
   end
-end
 end
