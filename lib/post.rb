@@ -19,5 +19,5 @@ def author_name
   def self.all
     @@all
   end
-  
+
 end
