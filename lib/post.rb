@@ -2,8 +2,11 @@ class Post
 
 attr_accessor :title
 
+@@all = []
+
 def iniitalize(title)
   @title = title
+  @@all << self 
 end
 
 def title
