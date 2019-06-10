@@ -1,12 +1,14 @@
 class Author
 
   @@post_count = 0
+  @@all = []
 
   attr_accessor :name, :posts
 
   def initialize(name)
     @name = name
     @posts = []
+    @@all << self
   end
 
   def add_post(post)
